@@ -1,0 +1,34 @@
+{
+  "name": "aponica/macheps-php",
+  "description": "Comparison functions using machine epsilon in PHP",
+  "homepage" : "https://aponica.com/docs/macheps-php",
+  "funding": [ { "type": "paypal",
+    "url": "https://www.paypal.com/biz/fund?id=BEHTAS8WARM68" } ],
+  "keywords": [
+    "comparison",
+    "epsilon",
+    "float arithmetic",
+    "float comparison",
+    "floating point arithmetic",
+    "floating point comparison",
+    "macheps",
+    "machine epsilon",
+    "numeric comparison"
+  ],
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    { "name": "Opplaud LLC", "email": "dev.support@aponica.com" }
+  ],
+  "require": {
+    "php": "*"
+  },
+  "autoload": {
+    "files": [
+      "src/cMachEps.php"
+    ],
+    "psr-4": {"Aponica\\MachEps\\": "src"}
+  }
+}
